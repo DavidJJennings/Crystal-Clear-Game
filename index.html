@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crystal CLear</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="pageLayout">
+      <section class="header">
+        <h1>Crystal Clear</h1>
+        <div class="counterBackground">
+          <div class="currencyIconCounter">
+            <img src="images/Gem Currency Icon.svg" alt="gem shard currency" />
+          </div>
+          <div class="counter">0000000</div>
+        </div>
+      </section>
+      <div class="navSpace">
+        <div class="shopBackgroundHidden shopTheme">
+          <div class="shopIconBtnHidden">
+            <button>
+              <i
+                id="shopIcon"
+                class="fa-solid fa-cart-shopping fa-2xl"
+                style="color: #000000"
+              ></i>
+            </button>
+          </div>
+
+          <div class="onyx gem-shop-tier">
+            <img class="gemImg" src="images/Onyx-Tier-Gem.svg" alt="Onyx Gem" />
+            <div class="tier hiddenTierHeaders"><h3>Onyx</h3></div>
+            <div class="priceHeader hiddenTierHeaders">
+              <div class="currencyIconShop">
+                <img src="images/Gem Currency Icon.svg" alt="currency icon" />
+              </div>
+              <h4>50,000</h4>
+            </div>
+          </div>
+
+          <div class="emerald gem-shop-tier">
+            <img
+              class="gemImg"
+              src="images/Emerald-Tier-Gem.svg"
+              alt="Emerald Gem"
+            />
+
+            <div class="tier hiddenTierHeaders"><h3>Emerald</h3></div>
+            <div class="priceHeader hiddenTierHeaders">
+              <div class="currencyIconShop">
+                <img src="images/Gem Currency Icon.svg" alt="currency icon" />
+              </div>
+              <h4>250,000</h4>
+            </div>
+          </div>
+
+          <div class="opal gem-shop-tier">
+            <img class="gemImg" src="images/Opal-Tier-Gem.svg" alt="Opal Gem" />
+            <div class="tier hiddenTierHeaders"><h3>Opal</h3></div>
+            <div class="priceHeader hiddenTierHeaders">
+              <div class="currencyIconShop">
+                <img src="images/Gem Currency Icon.svg" alt="currency icon" />
+              </div>
+              <h4>500,000</h4>
+            </div>
+          </div>
+
+          <div class="ruby gem-shop-tier">
+            <img class="gemImg" src="images/Ruby-Tier-Gem.svg" alt="Ruby Gem" />
+            <div class="tier hiddenTierHeaders"><h3>Ruby</h3></div>
+            <div class="priceHeader hiddenTierHeaders">
+              <div class="currencyIconShop">
+                <img src="images/Gem Currency Icon.svg" alt="currency icon" />
+              </div>
+              <h4>1,000,000</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <main class="main">
+        <span class="startPromptWrapper">
+          <h4 class="highscore">PRESS THE SPACE KEY TO START</h4>
+        </span>
+        <div class="diamondBtnWrapper">
+          <div id="green" class="tealDiamond diamond"></div>
+          <div id="yellow" class="yellowDiamond diamond"></div>
+          <div id="red" class="redDiamond diamond"></div>
+          <div id="blue" class="darkBlueDiamond diamond"></div>
+        </div>
+      </main>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
