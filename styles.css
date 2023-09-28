@@ -528,3 +528,333 @@ h3 {
 .flash-gem {
   animation: flash 0.25s ease-in-out;
 }
+
+/*ALL THEME STYLING, APPLIED ON CLICK WITH JS*/
+/*ONYX THEME*/
+.shopTheme.shopThemeOnyx {
+  background: hsla(0, 4%, 38%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(0, 4%, 38%, 1) 0%,
+    hsla(0, 100%, 98%, 1) 24%,
+    hsla(0, 4%, 38%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(0, 4%, 38%, 1) 0%,
+    hsla(0, 100%, 98%, 1) 24%,
+    hsla(0, 4%, 38%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(0, 4%, 38%, 1) 0%,
+    hsla(0, 100%, 98%, 1) 24%,
+    hsla(0, 4%, 38%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#645C5C", endColorstr="#FFF5F5", GradientType=1 );
+}
+
+.rootThemeOnyx {
+  background: hsla(240, 20%, 4%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(240, 20%, 4%, 1) 0%,
+    hsla(257, 3%, 51%, 1) 76%,
+    hsla(249, 11%, 12%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(240, 20%, 4%, 1) 0%,
+    hsla(257, 3%, 51%, 1) 76%,
+    hsla(249, 11%, 12%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(240, 20%, 4%, 1) 0%,
+    hsla(257, 3%, 51%, 1) 76%,
+    hsla(249, 11%, 12%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#08080C", endColorstr="#807E85", GradientType=1 );
+}
+.counterBackground.counterThemeOnyx {
+  background: hsla(0, 4%, 38%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(0, 4%, 38%, 1) 0%,
+    hsla(0, 100%, 98%, 1) 24%,
+    hsla(0, 4%, 38%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(0, 4%, 38%, 1) 0%,
+    hsla(0, 100%, 98%, 1) 24%,
+    hsla(0, 4%, 38%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(0, 4%, 38%, 1) 0%,
+    hsla(0, 100%, 98%, 1) 24%,
+    hsla(0, 4%, 38%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#645C5C", endColorstr="#FFF5F5", GradientType=1 );
+}
+
+/* EMERALD THEME */
+.rootThemeEmerald {
+  background: hsla(123, 64%, 38%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(123, 64%, 38%, 1) 0%,
+    hsla(0, 100%, 98%, 1) 24%,
+    hsla(123, 64%, 38%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(123, 64%, 38%, 1) 0%,
+    hsla(0, 100%, 98%, 1) 24%,
+    hsla(123, 64%, 38%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(123, 64%, 38%, 1) 0%,
+    hsla(0, 100%, 98%, 1) 24%,
+    hsla(123, 64%, 38%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#239F29", endColorstr="#fff5f5", GradientType=1 );
+}
+
+.counterBackground.counterThemeEmerald {
+  background: hsla(123, 47%, 41%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(123, 47%, 41%, 1) 0%,
+    hsla(0, 9%, 83%, 1) 65%,
+    hsla(123, 47%, 41%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(123, 47%, 41%, 1) 0%,
+    hsla(0, 9%, 83%, 1) 65%,
+    hsla(123, 47%, 41%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(123, 47%, 41%, 1) 0%,
+    hsla(0, 9%, 83%, 1) 65%,
+    hsla(123, 47%, 41%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#389A3D", endColorstr="#D8D0D0", GradientType=1 );
+}
+
+.shopTheme.shopThemeEmerald {
+  background: hsla(123, 47%, 41%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(123, 47%, 41%, 1) 0%,
+    hsla(0, 9%, 83%, 1) 65%,
+    hsla(123, 47%, 41%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(123, 47%, 41%, 1) 0%,
+    hsla(0, 9%, 83%, 1) 65%,
+    hsla(123, 47%, 41%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(123, 47%, 41%, 1) 0%,
+    hsla(0, 9%, 83%, 1) 65%,
+    hsla(123, 47%, 41%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#389A3D", endColorstr="#D8D0D0", GradientType=1 );
+}
+
+/*Opal Theme*/
+
+.rootThemeOpal {
+  background: hsla(329, 36%, 52%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(329, 36%, 52%, 1) 0%,
+    hsla(12, 89%, 89%, 1) 71%,
+    hsla(342, 51%, 57%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(329, 36%, 52%, 1) 0%,
+    hsla(12, 89%, 89%, 1) 71%,
+    hsla(342, 51%, 57%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(329, 36%, 52%, 1) 0%,
+    hsla(12, 89%, 89%, 1) 71%,
+    hsla(342, 51%, 57%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B05785", endColorstr="#FCD4CA", GradientType=1 );
+}
+
+.shopTheme.shopThemeOpal {
+  background: hsla(12, 89%, 89%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(12, 89%, 89%, 1) 0%,
+    hsla(329, 82%, 76%, 1) 50%,
+    hsla(342, 100%, 73%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(12, 89%, 89%, 1) 0%,
+    hsla(329, 82%, 76%, 1) 50%,
+    hsla(342, 100%, 73%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(12, 89%, 89%, 1) 0%,
+    hsla(329, 82%, 76%, 1) 50%,
+    hsla(342, 100%, 73%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FCD4CA", endColorstr="#F48EC3", GradientType=1 );
+}
+
+.counterBackground.counterThemeOpal {
+  background: hsla(12, 89%, 89%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(12, 89%, 89%, 1) 0%,
+    hsla(329, 82%, 76%, 1) 50%,
+    hsla(342, 100%, 73%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(12, 89%, 89%, 1) 0%,
+    hsla(329, 82%, 76%, 1) 50%,
+    hsla(342, 100%, 73%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(12, 89%, 89%, 1) 0%,
+    hsla(329, 82%, 76%, 1) 50%,
+    hsla(342, 100%, 73%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FCD4CA", endColorstr="#F48EC3", GradientType=1 );
+}
+
+/*RUBY THEME*/
+
+.rootThemeRuby {
+  background: hsla(5, 93%, 28%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(5, 93%, 28%, 1) 0%,
+    hsla(0, 6%, 49%, 1) 76%,
+    hsla(0, 62%, 29%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(5, 93%, 28%, 1) 0%,
+    hsla(0, 6%, 49%, 1) 76%,
+    hsla(0, 62%, 29%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(5, 93%, 28%, 1) 0%,
+    hsla(0, 6%, 49%, 1) 76%,
+    hsla(0, 62%, 29%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8C1105", endColorstr="#857777", GradientType=1 );
+}
+
+.shopTheme.shopThemeRuby {
+  background: hsla(5, 67%, 15%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(5, 67%, 15%, 1) 0%,
+    hsla(0, 65%, 57%, 1) 32%,
+    hsla(0, 76%, 33%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(5, 67%, 15%, 1) 0%,
+    hsla(0, 65%, 57%, 1) 32%,
+    hsla(0, 76%, 33%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(5, 67%, 15%, 1) 0%,
+    hsla(0, 65%, 57%, 1) 32%,
+    hsla(0, 76%, 33%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#42110D", endColorstr="#D84949", GradientType=1 );
+}
+
+.counterBackground.counterThemeRuby {
+  background: hsla(5, 67%, 15%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(5, 67%, 15%, 1) 0%,
+    hsla(0, 65%, 57%, 1) 32%,
+    hsla(0, 76%, 33%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(5, 67%, 15%, 1) 0%,
+    hsla(0, 65%, 57%, 1) 32%,
+    hsla(0, 76%, 33%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(5, 67%, 15%, 1) 0%,
+    hsla(0, 65%, 57%, 1) 32%,
+    hsla(0, 76%, 33%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#42110D", endColorstr="#D84949", GradientType=1 );
+}

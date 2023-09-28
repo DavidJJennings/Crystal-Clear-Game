@@ -9,7 +9,92 @@ $(".shopIconBtnHidden").click(function () {
   $(".hiddenTierHeaders").toggleClass("fade-in-fade-out");
 });
 
-enableUI(); //enabled for testing
+const currentScore = document.querySelector(".highscore");
+let allShopThemes = document.querySelectorAll(".gem-shop-tier");
+let counterBackground = document.querySelector(".counterBackground");
+let root = document.querySelector(":root");
+let shopBackground = document.querySelector(".shopTheme");
+
+/*Functionality for theme application, on click removes any existing themes, and then toggles the selected theme on*/
+allShopThemes.forEach((element) => {
+  element.addEventListener("click", () => {
+    if (element.id == "onyx") {
+      root.classList.remove(
+        "rootThemeEmerald",
+        "rootThemeOpal",
+        "rootThemeRuby"
+      );
+      root.classList.toggle("rootThemeOnyx");
+
+      shopBackground.classList.remove(
+        "shopThemeEmerald",
+        "shopThemeOpal",
+        "shopThemeRuby"
+      );
+      shopBackground.classList.toggle("shopThemeOnyx");
+
+      counterBackground.classList.remove(
+        "counterThemeEmerald",
+        "counterThemeOpal",
+        "counterThemeRuby"
+      );
+      counterBackground.classList.toggle("counterThemeOnyx");
+    } else if (element.id == "emerald") {
+      root.classList.remove("rootThemeOnyx", "rootThemeOpal", "rootThemeRuby");
+      root.classList.toggle("rootThemeEmerald");
+      shopBackground.classList.remove(
+        "shopThemeOnyx",
+        "shopThemeOpal",
+        "shopThemeRuby"
+      );
+      shopBackground.classList.toggle("shopThemeEmerald");
+      counterBackground.classList.remove(
+        "counterThemeOnyx",
+        "counterThemeOpal",
+        "counterThemeRuby"
+      );
+      counterBackground.classList.toggle("counterThemeEmerald");
+    } else if (element.id == "opal") {
+      root.classList.remove(
+        "rootThemeEmerald",
+        "rootThemeOnyx",
+        "rootThemeRuby"
+      );
+      root.classList.toggle("rootThemeOpal");
+      shopBackground.classList.remove(
+        "shopThemeEmerald",
+        "shopThemeOnyx",
+        "shopThemeRuby"
+      );
+      shopBackground.classList.toggle("shopThemeOpal");
+      counterBackground.classList.remove(
+        "counterThemeEmerald",
+        "counterThemeOnyx",
+        "counterThemeRuby"
+      );
+      counterBackground.classList.toggle("counterThemeOpal");
+    } else if (element.id == "ruby") {
+      root.classList.remove(
+        "rootThemeEmerald",
+        "rootThemeOpal",
+        "rootThemeOnyx"
+      );
+      root.classList.toggle("rootThemeRuby");
+      shopBackground.classList.remove(
+        "shopThemeEmerald",
+        "shopThemeOpal",
+        "shopThemeOnyx"
+      );
+      shopBackground.classList.toggle("shopThemeRuby");
+      counterBackground.classList.remove(
+        "counterThemeEmerald",
+        "counterThemeOpal",
+        "counterThemeOnyx"
+      );
+      counterBackground.classList.toggle("counterThemeRuby");
+    }
+  });
+});
 
 //Level is 0 before game is initiated to level 1.
 let level = 0;
@@ -42,6 +127,7 @@ function randomChosenColor() {
 }
 
 function nextSequence() {
+  disableUI();
   gamePattern.push(randomChosenColor());
   sequenceAnimation(gamePattern);
   level++;
@@ -94,8 +180,8 @@ function animatePress(elementPressed) {
   }, 100);
 }
 
-const currentScore = document.querySelector(".highscore"); // Header element which changes to score counter when game is initiated.
-
+/*Initiates game on spacebar press, generates initial sequence, enables inputs updates level and disables the event listener
+until the player has lost */
 document.querySelector(":root").addEventListener("keydown", (Event) => {
   if (Event.key == " " && alive === false) {
     nextSequence();
