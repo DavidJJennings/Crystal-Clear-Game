@@ -1,7 +1,7 @@
 # Crystal-Clear-Game
 
  ## What it is
-Crystal Clear is a simple memory game based on the popular 'Simon' memory game, upon initiation of the game the user shown one random color which they have to re-input with a mouse click. 
+Crystal Clear is a simple memory game based on the popular 'Simon' colour sequence game. Upon initiation the user is shown one random color which they have to re-input with a mouse click. 
 They have then cleared the level and the sequence repeats with an additional color at the end this time. With each level passed, the sequence is incremented, each time requiring the user to re-input
 the sequence from start to finish. Upon failing to register a correct input in the sequence, the game is over and they must start again.
 
